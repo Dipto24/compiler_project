@@ -1,0 +1,78 @@
+
+VOIDMain_Function:
+Start
+	
+	INTE num,a,b=2;
+    WRITE(b);
+
+	num = 5;
+	a = 10;
+	WRITE(num);
+	WRITE(a);
+	WRITE(a *=* num);
+
+    
+
+	CHART name,year;
+
+	name = D;
+
+	WRITE(name);
+
+	
+	IF(1)
+	do
+		ODD_EVEN(7); 
+	end
+	ELSE
+	do 
+		3+=+4;
+	end
+	
+	IF(10<11)
+	do
+		FACT(9);
+	end
+	ELSE
+	do
+		GCD(81,153);
+ 
+	end
+	
+
+	SWITCH (1)
+	do
+
+	CASE 1:  1*=*8;
+
+	CASE 2: 2^2;
+
+	DEFAULT : 7 MODULAS 12;
+	
+	end
+
+	WHILE_LOOP[1,5]
+	do
+		82;
+	end
+
+	FOR_LOOP(1:10;2)
+	do
+		10;
+	end
+
+	SIN(5);
+	COS(5);
+	TAN(5);
+	LOG(5);
+	LOG10(5);
+	GCD(81,153);
+
+
+	
+
+	
+	
+	
+End
+
